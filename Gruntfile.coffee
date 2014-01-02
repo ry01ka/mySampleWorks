@@ -170,10 +170,10 @@ module.exports = (grunt) ->
     grunt.loadNpmTasks "grunt-contrib-sass"
     grunt.loadNpmTasks "grunt-csscomb"
     grunt.loadNpmTasks "grunt-csscss"
-    grunt.loadNpmTasks "grunt-contrib-csslint"
+    # grunt.loadNpmTasks "grunt-contrib-csslint"
     grunt.loadNpmTasks "grunt-csso"
     grunt.loadNpmTasks "grunt-contrib-htmlmin"
-    grunt.task.run "sass", "autoprefixer", "csscomb", "csscss", "csso", "csslint", "htmlmin"
+    grunt.task.run "sass", "autoprefixer", "csscomb", "csscss", "csso", "htmlmin"
 
   grunt.registerTask "minify", [], ->
     grunt.loadNpmTasks "grunt-imageoptim"

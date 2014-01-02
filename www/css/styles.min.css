@@ -1,0 +1,6 @@
+/*
+ * styles.css
+ * Copyright 2013 Ryo Ikarashi
+ * Licensed under the MIT Licensed
+ */
+.cf{zoom:1}.cf:before,.cf:after{display:table;content:''}.cf:after{clear:both}body{line-height:1.5em;width:100%;padding:0;background-color:#fff}body,#stage{margin:0}header{text-align:center;color:#fff;background-color:#60001e}header h1{font-size:2.3em;margin:0 0 .2em;padding:.4em 0}nav{margin:0;background-color:#99331e}nav ul{margin:0;padding:0}nav ul li{line-height:3em;float:left;width:150px;margin:0 0 0 10px;list-style:none;text-align:center;color:#fff;border-right:1px solid #ccc}#contents{width:78.125%;margin:1em auto}#contents h1{font-weight:700}section{margin:0 0 1em}aside>section{height:130px;padding:15px 0 0 20px;background-color:#ffbfc7}article>section{border-bottom:1px solid #999}footer{width:100%;text-align:center}
